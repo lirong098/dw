@@ -1,0 +1,71 @@
+image: docker:latest
+
+stages:
+- compile
+- build
+- deploy
+
+cache:
+  key: "${CI_COMMIT_SHA}"
+  paths:
+    - dist
+
+variables:
+  APP_NAME: douwa-registry-web
+  REGISTRY_IMAGE: "reg.douwa.io/hsbs/${APP_NAME}"
+
+compile:
+  stage: compile
+  image: reg.douwa.io/library/node:8-dw
+  script:
+    - npm install
+    - npm run build
+
+build:
+  stage: build
+  before_script:
+    - docker login -u dw -p $DOUWA_REGISTRY_PASSWORD reg.douwa.io
+  script:
+    - docker build -t $REGISTRY_IMAGE:${CI_COMMIT_REF_NAME} .
+    - docker push $REGISTRY_IMAGE:${CI_COMMIT_REF_NAME}
+
+deploy-dev:
+  stage: deploy
+  before_script:
+    - docker login -u dw -p $DOUWA_REGISTRY_PASSWORD reg.douwa.io
+  variables:
+    APP_CNAME: "${APP_NAME}-${CI_COMMIT_REF_NAME}"
+    APP_PORT: 21601
+    API: "douwa-registry-ui-${CI_COMMIT_REF_NAME}"
+    AUTH: "douwa-registry-ui-${CI_COMMIT_REF_NAME}"
+    # API: "http://dev.douwa.io"
+    # AUTH: "http://dev.douwa.io"
+  script:
+    - docker stop ${APP_CNAME} && docker rm ${APP_CNAME}
+    # deploy app
+    - docker run -d --name ${APP_CNAME} --restart always --net douwa-registry-net -p ${APP_PORT}:8080 -e "API=api" -e "AUTH=auth" --link ${API}:api --link ${AUTH}:auth ${REGISTRY_IMAGE}:${CI_COMMIT_REF_NAME}
+  environment:
+    name: develop
+  only:
+    - dev
+
+deploy-test:
+  stage: deploy
+  retry: 2
+  before_script:
+    - docker login -u dw -p $DOUWA_REGISTRY_PASSWORD reg.douwa.io
+  variables:
+    # APP_CNAME: "${APP_NAME}-${CI_ENVIRONMENT_NAME}"
+    APP_CNAME: "${APP_NAME}-${CI_COMMIT_REF_NAME}"
+    APP_PORT: 21611
+    API: "douwa-registry-ui-${CI_COMMIT_REF_NAME}"
+    AUTH: "douwa-registry-ui-${CI_COMMIT_REF_NAME}"
+  script:
+    - docker stop ${APP_CNAME} && docker rm ${APP_CNAME}
+    # deploy app
+    - docker run -d --name ${APP_CNAME} --restart always --net douwa-registry-net -p ${APP_PORT}:8080 -e "API=api" -e "AUTH=auth" --link ${API}:api --link ${AUTH}:auth ${REGISTRY_IMAGE}:${CI_COMMIT_REF_NAME}
+  environment:
+    name: test
+  only:
+    - master
+    # - /^release-.*$/

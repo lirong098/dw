@@ -1,0 +1,19 @@
+{
+    "list": [{
+        "key": "C001",
+        "lot": "L01",
+        "color": "red"
+    }, {
+        "key": "C002",
+        "lot": "L01",
+        "color": "green"
+    }, {
+        "key": "C003",
+        "lot": "L02",
+        "color": "red"
+    }, {
+        "key": "C004",
+        "lot": "L03",
+        "color": "red"
+    }]
+}

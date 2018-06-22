@@ -1,0 +1,304 @@
+[
+  {
+    "item_list": [
+      {
+          "delivery_date": "2017-07-10",
+          "quantity": 735,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_L",
+          "item_code": "T_2017_BLUE_L",
+          "total": 735,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-17",
+          "quantity": 623,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_L",
+          "item_code": "T_2017_BLUE_L",
+          "total": 1358,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-24",
+          "quantity": 361,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_L",
+          "item_code": "T_2017_BLUE_L",
+          "total": 1719,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-31",
+          "quantity": 815,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_L",
+          "item_code": "T_2017_BLUE_L",
+          "total": 2534,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-10",
+          "quantity": 872,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_M",
+          "item_code": "T_2017_BLUE_M",
+          "total": 872,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-17",
+          "quantity": 234,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_M",
+          "item_code": "T_2017_BLUE_M",
+          "total": 1106,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-30",
+          "quantity": 792,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_M",
+          "item_code": "T_2017_BLUE_M",
+          "total": 1898,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-31",
+          "quantity": 524,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_M",
+          "item_code": "T_2017_BLUE_M",
+          "total": 2422,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-08-06",
+          "quantity": 0,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_M",
+          "item_code": "T_2017_BLUE_M",
+          "total": 2422,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-10",
+          "quantity": 876,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_S",
+          "item_code": "T_2017_BLUE_S",
+          "total": 876,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-17",
+          "quantity": 0,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_S",
+          "item_code": "T_2017_BLUE_S",
+          "total": 876,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-24",
+          "quantity": 478,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_S",
+          "item_code": "T_2017_BLUE_S",
+          "total": 1354,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-31",
+          "quantity": 534,
+          "pre_quantity": 0,
+          "item_name": "T_2017_BLUE_S",
+          "item_code": "T_2017_BLUE_S",
+          "total": 1888,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-08-06",
+          "quantity": 876,
+          "pre_quantity": 534,
+          "item_name": "T_2017_BLUE_S",
+          "item_code": "T_2017_BLUE_S",
+          "total": 3298,
+          "pr_quantity": 0,
+          "country": "CN"
+      }
+    ],
+    "model_name": "2017秋季T恤蓝色",
+    "model_code": "T_2017_BLUE"
+},
+{
+    "item_list": [
+      {
+          "delivery_date": "2017-07-10",
+          "quantity": 182,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_L",
+          "item_code": "T_2017_WHITE_L",
+          "total": 182,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-17",
+          "quantity": 532,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_L",
+          "item_code": "T_2017_WHITE_L",
+          "total": 714,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-24",
+          "quantity": 519,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_L",
+          "item_code": "T_2017_WHITE_L",
+          "total": 1233,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-31",
+          "quantity": 641,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_L",
+          "item_code": "T_2017_WHITE_L",
+          "total": 1874,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-08-06",
+          "quantity": 1234,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_L",
+          "item_code": "T_2017_WHITE_L",
+          "total": 3108,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-10",
+          "quantity": 652,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_M",
+          "item_code": "T_2017_WHITE_M",
+          "total": 652,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-17",
+          "quantity": 342,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_M",
+          "item_code": "T_2017_WHITE_M",
+          "total": 994,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-24",
+          "quantity": 423,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_M",
+          "item_code": "T_2017_WHITE_M",
+          "total": 1417,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-31",
+          "quantity": 274,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_M",
+          "item_code": "T_2017_WHITE_M",
+          "total": 1691,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-08-06",
+          "quantity": 652,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_M",
+          "item_code": "T_2017_WHITE_M",
+          "total": 2343,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-10",
+          "quantity": 352,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_S",
+          "item_code": "T_2017_WHITE_S",
+          "total": 352,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-17",
+          "quantity": 609,
+          "pre_quantity": 462,
+          "item_name": "T_2017_WHITE_S",
+          "item_code": "T_2017_WHITE_S",
+          "total": 1423,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-24",
+          "quantity": 0,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_S",
+          "item_code": "T_2017_WHITE_S",
+          "total": 1423,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-07-31",
+          "quantity": 734,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_S",
+          "item_code": "T_2017_WHITE_S",
+          "total": 2157,
+          "pr_quantity": 0,
+          "country": "CN"
+      },
+      {
+          "delivery_date": "2017-08-06",
+          "quantity": 412,
+          "pre_quantity": 0,
+          "item_name": "T_2017_WHITE_S",
+          "item_code": "T_2017_WHITE_S",
+          "total": 2569,
+          "pr_quantity": 0,
+          "country": "CN"
+      }
+    ],
+    "model_name": "2017秋季T恤白色",
+    "model_code": "T_2017_WHITE"
+  }
+]

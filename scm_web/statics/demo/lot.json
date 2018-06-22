@@ -1,0 +1,18 @@
+{
+    "list": [{
+        "style": "S001",
+        "lot": "L01",
+        "country": "CN",
+        "deliver": "2017-07-01"
+    }, {
+        "style": "S001",
+        "lot": "L02",
+        "country": "UK",
+        "deliver": "2017-07-03"
+    }, {
+        "style": "S002",
+        "lot": "L03",
+        "country": "CN",
+        "deliver": "2017-07-01"
+    }]
+}

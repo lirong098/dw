@@ -1,0 +1,27 @@
+.el-table .cell {
+  padding: 0px !important;
+}
+
+.el-table > tr > td {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.el-step__head.is-text.is-success {
+  color: #fff;
+  background-color: #dc2265;
+  border-color: #dc2265;
+}
+
+.el-step__title.is-success {
+  font-weight: 700;
+  color: #dc2265;
+}
+
+.el-button--small {
+  padding: 6px 9px !important;
+}
+
+/*.el-date-editor.el-input {*/
+/*margin: 5px 10px !important;*/
+/*}*/

@@ -1,0 +1,28 @@
+{
+    "list": [{
+        "key": "C001",
+        "size": "S",
+        "quantity": 20
+    }, {
+        "key": "C001",
+        "size": "M",
+        "quantity": 10
+    }, {
+        "key": "C001",
+        "size": "L",
+        "quantity": 15
+    }, {
+        "key": "C002",
+        "size": "L",
+        "quantity": 17
+    }, {
+        "key": "C003",
+        "size": "M",
+        "quantity": 19
+    }, {
+        "key": "C004",
+        "size": "XL",
+        "quantity": 29
+    }, {
+    }]
+}

@@ -1,0 +1,33 @@
+image: docker:latest
+
+#services:
+#- docker:dind
+
+stages:
+- compile
+- build
+
+cache:
+  key: "$CI_BUILD_REF"
+  paths:
+    - dist
+
+variables:
+  REGISTRY_IMAGE: "reg.douwa.io/hsbs/${CI_PROJECT_NAME}"
+
+compile:
+  stage: compile
+  retry: 2
+  image: reg.douwa.io/library/node:8-dw
+  script:
+    - npm install
+    - npm run build
+
+build:
+  stage: build
+  retry: 2
+  before_script:
+    - docker login -u dw -p $DOUWA_REGISTRY_PASSWORD reg.douwa.io
+  script:
+    - docker build --pull -t $REGISTRY_IMAGE:${CI_COMMIT_REF_NAME} .
+    - docker push $REGISTRY_IMAGE:${CI_COMMIT_REF_NAME}
